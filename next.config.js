@@ -7,9 +7,7 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
 const nextConfig = {
     // Uncomment to enable Edge Runtime for server rendering
     // https://nextjs.org/docs/api-reference/edge-runtime
-    /* experimental: {
-      runtime: "experimental-edge",
-  }, */
+    // runtime: "experimental-edge",
     reactStrictMode: true,
     swcMinify: true,
     eslint: {
