@@ -5,11 +5,19 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
 });
 
 const nextConfig = {
+    devIndicators: {
+        buildActivity: true,
+        buildActivityPosition: "bottom-left",
+    },
+    env: {},
+    reactStrictMode: true,
     // Uncomment to enable Edge Runtime for server rendering
     // https://nextjs.org/docs/api-reference/edge-runtime
-    // runtime: "experimental-edge",
-    reactStrictMode: true,
+    /* experimental: {
+        runtime: "experimental-edge",
+    }; */
     swcMinify: true,
+    trailingSlash: false,
     eslint: {
         // Warning: This allows production builds to successfully complete even if
         // your project has ESLint errors.
@@ -18,3 +26,5 @@ const nextConfig = {
 };
 
 module.exports = withBundleAnalyzer(nextConfig);
+
+
