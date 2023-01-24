@@ -63,7 +63,7 @@ const Home = ({ posts }) => {
                                     alt="thumbnail"
                                     width={500}
                                     height={400}
-                                    objectFit="cover"
+                                    style={{ objectFit: "cover" }}
                                 />
                             </div>
                         </div>

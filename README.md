@@ -8,4 +8,4 @@
 1. Easily configurable and customisable with plugins/features.
 1. Unopinionated CSS: use preprocessors (eg. SASS/LESS/Stylus), utility frameworks (eg. Tailwind) or component frameworks.
 
-Adapted from [ebenezerdon/nextjs-mdx-blog](https://github.com/ebenezerdon/nextjs-mdx-blog) which was last updated November 12 2021 and is currently unmaintained.
+Adapted from [ebenezerdon/nextjs-mdx-blog](https://github.com/ebenezerdon/nextjs-mdx-blog), last maintained November 12 2021
